@@ -20,4 +20,21 @@
     margin-bottom: -150px;
     mask-image: linear-gradient(to bottom, blue, black);
 }
+.focus{
+    transition: transform 0.3s;
+}
+
+.focus:hover{
+    transform: scale(1.05);
+}
+
+.home__image:hover{
+    transform: scale(1.05);
+}
+.custom-img {
+    height: 100vh;
+    object-fit: cover;
+    transform: scale(1.05);
+
+  }
 

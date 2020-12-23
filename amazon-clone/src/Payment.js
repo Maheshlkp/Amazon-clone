@@ -139,7 +139,7 @@ function Payment () {
                                     prefix={"$"}
                                 />
 
-                                <button disabled={processinjg || disabled || succeeded}><span>{processinjg ? <p>processinjg</p> : "Buy Now"}</span></button>
+                                <button disabled={processinjg || disabled || succeeded}><span>{processinjg ? <p>processing</p> : "Buy Now"}</span></button>
                             </div>
                             {/* Errors */}
                             {error && <div>{error}</div>}

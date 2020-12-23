@@ -11,6 +11,7 @@ import Payment from './Payment';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from "@stripe/react-stripe-js"
 import Orders from './Orders'
+import Footer from "./Footer"
 // import Order from './Order'
 
 
@@ -66,6 +67,7 @@ function App () {
           <Route path="/">
             <Header />
             <Home />
+            <Footer/>
           </Route>
 
         </Switch>
