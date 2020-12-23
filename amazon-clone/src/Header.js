@@ -18,7 +18,7 @@ export default function Header () {
     return (
         <div className='header'>
             <Link to="/home">
-                <img className="header__logo" src="https://i.pinimg.com/280x280_RS/fa/16/b8/fa16b892512b3df516211c68fc489134.jpg" />
+                <img className="header__logo" src="https://bloximages.chicago2.vip.townnews.com/kenoshanews.com/content/tncms/assets/v3/editorial/0/56/05663cea-77e2-5e21-8a79-53e9a96e9acc/5f1f3d4695a1a.image.jpg" />
             </Link>
 
             <div className="header__search">
@@ -36,10 +36,13 @@ export default function Header () {
                 </Link>
 
 
-                <div className="header__option">
-                    <span className="header__optionLineOne">Return</span>
-                    <span className="header__optionLineTwo">& Orders</span>
-                </div>
+                <Link to='/orders'>
+                    <div className="header__option">
+                        <span className="header__optionLineOne">Return</span>
+                        <span className="header__optionLineTwo">& Orders</span>
+                    </div>
+                </Link>
+
                 <div className="header__option">
                     <span className="header__optionLineOne">Your</span>
                     <span className="header__optionLineTwo">Prime</span>
